@@ -1,4 +1,4 @@
-# React+Tailwind+Vite Starter
+# React + Tailwind + TypeScript + Vite Starter
 
 ## Summary
 
