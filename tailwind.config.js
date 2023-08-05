@@ -1,12 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-	theme: {
-		fontFamily: {
-			ubuntu: 'Ubuntu, san-serif',
-		},
-		extend: {},
-	},
-	// eslint-disable-next-line no-undef
-	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    fontFamily: {
+      opensans: "'Open Sans', sans-serif",
+      ubuntu: "Ubuntu, san-serif",
+    },
+    extend: {},
+  },
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("prettier-plugin-tailwindcss"),
+  ],
 };
